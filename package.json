@@ -9,7 +9,7 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "Jo Charles",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
