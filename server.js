@@ -4,9 +4,9 @@ const mongoose = require('mongoose');
 const path = require("path")
 require('dotenv').config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3004;
 
-const db = require('../models');
+// const db = require('../models');
 
 const app = express();
 
