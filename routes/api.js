@@ -3,7 +3,7 @@ const router = require('express').Router();
 
 router.get('/api/workouts', (req, res) =>{
 
-    db.Workouts.find({}).then(dbWorkout => {
+    db.Workout.find({}).then(dbWorkout => {
         dbWorkout.forEach(workout => {
             var total = 0;
             workout.exercises.forEach(e => {
@@ -21,7 +21,7 @@ router.get('/api/workouts', (req, res) =>{
 // Put In Exercises 
 router.put('/api/workouts/:id', (req, res) => {
 
-    db.Workouts.fingOneAndUpdate(
+    db.Workout.findOneAndUpdate(
         {_id: req.params.id},
         {
             $inc: {totalDuration: req.body.duration},
