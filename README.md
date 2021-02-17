@@ -3,6 +3,8 @@
 ## Description
 - An efficient and simple way of tracking your workouts is essential. Now with the Fitness Tracker clients have the ability to track all of their workouts! Through the application dashboard you're able to display your weekly workout summary in graphs, which highlights the efficency of logging all exercises within your workout.
 
+- Here is a deployed link: [Workout Tracker](shrouded-beyond-51683.herokuapp.com/)
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
