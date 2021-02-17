@@ -15,6 +15,15 @@
 - The next would be the apps ability of giving the users free reign to create their own personal workouts. 
 - Lastly the application highlights the past week's summary of the user's workout which will display on multiple graphs.
 
+1. Snapshot of Dashboard with last workout.
+![Dashboard](public/assets/Dashboard.png)
+
+2. Client input of their desired exercise.
+![Fitness](public/assets/Fitness.png)
+
+3. Dashboard displaying the client's workout for the week.
+![Fitness](public/assets/Charts.png)
+
 ## Installation
 - To install the project follow the following instructions:
     1) User must begin by cloning the repository onto their local device. 
